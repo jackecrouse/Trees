@@ -14,6 +14,16 @@ public class Main {
 		tree.insert(17);
 		tree.insert(3);
 		
+		//Tree is 5, 4, 10, 7, 25, 17, 3
+		
+		/*         5
+				  / \
+				 4  10
+				/  /  \
+			   3  7   25
+			          /  
+				     17  
+		*/
 		
 		System.out.println("---Inorder Traversal---");
 		tree.inOrder();

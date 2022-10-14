@@ -14,6 +14,7 @@ public class BinaryTree<T extends Comparable<T>> extends Tree<T>
 		_root = insertHelp(_root, data);
 	}
 	
+	
 	private TreeNode<T> insertHelp(TreeNode<T> currentNode, T data)
 	{
 		if(currentNode == null) return new TreeNode<T>(null, data, null);
